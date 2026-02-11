@@ -1,7 +1,7 @@
 import cv2, os
 haar_file = 'haarcascade_frontalface_default.xml'
 datasets = 'datasets'  
-sub_data = 'Siva'     
+sub_data = 'Your Name'     
 
 path = os.path.join(datasets, sub_data) #datasets/Ramesh
 if not os.path.isdir(path):
